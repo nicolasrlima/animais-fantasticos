@@ -18,9 +18,12 @@
 .modal {
   background: #fff;
   padding: 40px;
+  width: 80vw;
+  max-width: 600px;
   border: 10px solid #FB3;
   box-shadow: 0 0 0 10px #fff;
   position: relative;
+  box-sizing: border-box;
 }
 
 @keyframes animacaoModal {
@@ -66,6 +69,8 @@
   width: 100%;
   padding: .7rem;
   box-sizing: border-box;
+  border: 2px solid #222;
+  border-radius: 0;
 }
 
 .modal button[type = 'submit'] {
